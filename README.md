@@ -1,5 +1,5 @@
 # SQL-PROJECT
-This is my first project that I worked on in SQL as a way to practice what I have learnt and familiarise myself with the syntax and writing queries in mysql.
+This is my first project in SQL. I decided to familiarise myself with the syntax and writing queries in mysql.
 
 ## Analysis for Apple Iphone XR (64GB) Black
 
@@ -86,7 +86,7 @@ SELECT review_rating, AVG(review_rating) AS avg_rating FROM iphone_data;
 
 SELECT reviewed_at FROM iphone_data;
 
--- WHAT IS TOTAL HELPFUL COUNT?
+-- WHAT IS THE TOTAL HELPFUL COUNT?
 
 SELECT helpful_count, SUM(helpful_count) AS hc FROM iphone_data;
 
